@@ -3,8 +3,10 @@
 #include "main.h"
 
 /**
+ * main - print the characters _putchar followed
+ * by a new line
  *
- *
+ * Return: Always 0 (Successful)
  */
 
 int main(void)
