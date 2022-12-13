@@ -7,11 +7,10 @@
  * Return: Based on character.
  */
 
-int _islower()
+int _islower(char c)
 {
-	char c;
 
-	if (c => 97 && c <= 122)
+	if (c >= 97 && c <= 122)
 		return (1);
 	else 
 		return (0);
