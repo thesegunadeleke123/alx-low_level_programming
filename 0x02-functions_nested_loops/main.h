@@ -1,9 +1,6 @@
-#ifndef _main_h
-#define _main_h
+#ifndef _main_h_
+#define _main_h_
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+int _putchar(char);
 
 #endif
