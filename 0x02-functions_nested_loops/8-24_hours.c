@@ -3,8 +3,6 @@
 /**
  * jack_bauer - Function that counts and displays all
  * minutes in a day.
- * @i: hours.
- * @h: minutes.
  *
  * Return: 0
  */
