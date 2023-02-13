@@ -5,9 +5,8 @@
  * of an integer.
  * @r: variable whose absolute value is to be
  * returned.
- * return: r depending on the absolute value.
  * 
- * return: 0 if successful
+ * Return: 0 if successful
 */
 
 int _abs(int r)
@@ -20,6 +19,5 @@ int _abs(int r)
 	{
 		return (r * (-1));
 	}
-
 	return (1);
 }
