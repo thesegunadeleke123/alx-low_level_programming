@@ -3,8 +3,8 @@
 /**
  * jack_bauer - Function that counts and displays all
  * minutes in a day.
- * @i: an integer for hours.
- * @h: an integer for minutes.
+ * @i: hours.
+ * @h: minutes.
  *
  * Return: 0
  */
@@ -12,9 +12,11 @@
 void jack_bauer(void)
 {
 	int i;
+
 	for (i = 0; i < 24; i++)
 	{
 		int h;
+
 		for (h = 0; h < 60; h++)
 		{
 			_putchar('0' + (i / 10));
