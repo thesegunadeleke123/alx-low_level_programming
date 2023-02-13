@@ -5,20 +5,21 @@
  * of an integer.
  * @r: variable whose absolute value is to be
  * returned.
+ * return: r depending on the absolute value.
  * 
  * return: 0 if successful
 */
 
 int _abs(int r)
 {
-    if (r >= 0)
-    {
-        return r;
-    }
-    else if (r < 0)
-    {
-        return r * (-1);
-    }
+	if (r >= 0)
+	{
+		return (r);
+	}
+	else if (r < 0)
+	{
+		return (r * (-1));
+	}
 
-    return (1);
+	return (1);
 }
