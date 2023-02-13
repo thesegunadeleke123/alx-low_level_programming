@@ -5,7 +5,7 @@
  * of an integer.
  * @r: variable whose absolute value is to be
  * returned.
- * 
+ *
  * Return: 0 if successful
 */
 
