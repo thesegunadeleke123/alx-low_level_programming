@@ -3,6 +3,7 @@
 /**
  * print_sign - print sign attached to a number
  * and return a particular value.
+ * @n: value to be tested.
  *
  * Return: 0 if positive.
  */
