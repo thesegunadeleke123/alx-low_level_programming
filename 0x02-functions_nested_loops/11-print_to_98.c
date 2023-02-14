@@ -7,6 +7,7 @@
  * @n: integer.
  *
  * Return: 0.
+ */
 
 void print_to_98(int n)
 {
